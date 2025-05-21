@@ -1,9 +1,9 @@
 function A = graphN(num_clusters, nodes_per_cluster, p_intra, p_inter, weights_intra, weights_inter)
-% GRAPHN Genera un grafo pesato con un numero parametrico di cluster
+% GraphN Genera un grafo pesato con un numero N di cluster
 %
 % Parametri:
 %   num_clusters - Numero di cluster da generare
-%   nodes_per_cluster - Vettore con il numero di nodi per ogni cluster
+%   nodes_per_cluster - Vettore con il numero di nodi per ogni cluster 
 %                       (lunghezza deve essere uguale a num_clusters)
 %   p_intra - Probabilità di connessione all'interno di ciascun cluster
 %             (può essere un valore singolo o un vettore di lunghezza num_clusters)
